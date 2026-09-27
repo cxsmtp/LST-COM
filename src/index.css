@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-bg-light text-primary font-sans;
+}
+
+* {
+  @apply transition-colors duration-200;
+}
