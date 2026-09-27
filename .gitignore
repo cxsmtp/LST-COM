@@ -1,7 +1,24 @@
+# Dependencies
 node_modules/
+**/node_modules/
+
+# Environment
 .env
 .env.local
+.env.*.local
+
+# OS
 .DS_Store
-*.log
-.vscode
 .idea
+.vscode
+*.log
+
+# Build outputs (each subdirectory has its own)
+dist/
+build/
+.next/
+
+# IDE
+*.swp
+*.swo
+*~
